@@ -1,0 +1,9 @@
+name: Rancher Update
+branding:
+  color: blue
+  icon: arrow-up-circle
+description: An action for updating image in the rancher 2.x environment
+
+runs:
+  using: docker
+  image: Dockerfile
